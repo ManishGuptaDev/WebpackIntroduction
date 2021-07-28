@@ -1,2 +1,2 @@
 * If you're using webpack v4 or later and want to call webpack from the command line, you'll also need to install the CLI.
-* To run webpack-dev-server, you must have configuration file. Default name : webpack.config.js
+* To run webpack-dev-server, you must have configuration file. Default name : webpack.config.js. Or might be to run any webpack command you must provide required details like entry and output
