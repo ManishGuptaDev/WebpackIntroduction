@@ -12,6 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.5"
+    "webpack-dev-server": "^2.11.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.1.18"
+  },
+  "comments": {
+    "babel-core": "to compile/traspile your files. Does the actual job of converting",
+    "babel-loader": "this plug files into webpack flow. They gives the ability to leverage webpack's bundling capabilities for all kinds of files by converting them to valid modules that webpack can process",
+    "babel-preset-es2015": "babel-core can do traspilation but we need to tell it hey which features do you want to able to compile for this we have presets. preset 2015 will unlock all the es6 features basically"
   }
 }
