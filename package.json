@@ -20,8 +20,9 @@
     "webpack-dev-server": "^2.11.5"
   },
   "comments": {
-    "babel-core": "to compile/traspile your files. Does the actual job of converting",
-    "babel-loader": "this plug files into webpack flow. They gives the ability to leverage webpack's bundling capabilities for all kinds of files by converting them to valid modules that webpack can process",
-    "babel-preset-es2015": "babel-core can do traspilation but we need to tell it hey which features do you want to able to compile for this we have presets. preset 2015 will unlock all the es6 features basically"
+    "babel-core": "is the babel npm package. Compile/traspile your files. Does the actual job of converting",
+    "babel-loader": "is the babel module loader for Webpack. This plug files into webpack flow. They gives the ability to leverage webpack's bundling capabilities for all kinds of files by converting them to valid modules that webpack can process",
+    "babel-preset-es2015": "is a babel preset for all es2015 plugins. babel-core can do traspilation but we need to tell it hey which features do you want to able to compile for this we have presets. preset 2015 will unlock all the es6 features basically",
+    "babel-preset-react": "is a babel preset for all React plugins."
   }
 }
