@@ -5,17 +5,19 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "prodbuild": "webpack --config webpack-production.config.js -p"
   },
   "author": "Manish Gupta",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.5",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^6.1.18"
+    "babel-preset-es2015": "^6.1.18",
+    "strip-loader": "^0.1.2",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5"
   },
   "comments": {
     "babel-core": "to compile/traspile your files. Does the actual job of converting",
