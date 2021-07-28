@@ -25,6 +25,11 @@ module.exports = {
                 test: /login\.js/,
                 exclude: /node_modules/,
 				loader: "babel-loader"
+            },
+            {
+                test: /\.css$/,
+				exclude: /node_modules/,
+				loader: "style-loader!css-loader" // Provides both the loader. Means any time webpack encounter css file its first run through the css loader and as soon as it's done with that, it's going to run it through the style-loader
             }
         ]
     }
